@@ -1,5 +1,4 @@
 :root {
-  --brand-colortext: #434455;
   --hover-color: #404bbf;
   --main-background-color: #2e2f42;
 }
@@ -7,7 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: var(--brand-color-text);
+  color: #434455;
 }
 
 .logo-web {
@@ -92,7 +91,7 @@ body {
 }
 .order-button:hover,
 .order-button:focus {
-  background: #404bbf;
+  background: var(--hover-color);
 }
 
 .list .advantages-title {
@@ -107,7 +106,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .second-title {
@@ -152,11 +150,10 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .footer-area {
-  background-color: #2e2f42;
+  background-color: var(--main-background-color);
 }
 
 .footer-text {
@@ -167,6 +164,7 @@ body {
 }
 
 .list .button-item {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: #f4f4fd;
   font-weight: 500;
@@ -195,5 +193,4 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
