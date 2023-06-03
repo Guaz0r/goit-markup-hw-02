@@ -177,14 +177,14 @@ body {
   color: #ffffff;
 }
 
-.gallery-list .gallery-title {
+.list .gallery-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.gallery-list .gallery-text {
+.list .gallery-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
