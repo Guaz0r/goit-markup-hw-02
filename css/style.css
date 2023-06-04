@@ -1,12 +1,16 @@
 :root {
   --hover-color: #404bbf;
-  --main-background-color: #2e2f42;
+  --main-brandcolor: #2e2f42;
+  --main-backgroundcolor: #f4f4fd;
+  --logo-buttonscolor: #4d5ae5;
+  --main-white: #ffffff;
+  --main-textcolor: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--main-white);
+  color: var(--main-textcolor);
 }
 
 .logo-web {
@@ -16,17 +20,17 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-buttonscolor);
 }
 
 .link {
   text-decoration: none;
 }
 .logo-studio {
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 .logo-studio-footer {
-  color: #f4f4fd;
+  color: var(--main-backgroundcolor);
 }
 
 .list {
@@ -37,7 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 .list .nav-link:hover,
 .list .nav-link:focus {
@@ -55,7 +59,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-textcolor);
 }
 .list .contacts-link:hover,
 .list .contacts-link:focus {
@@ -63,7 +67,7 @@ body {
 }
 
 .main-header {
-  background-color: var(--main-background-color);
+  background-color: var(--main-brandcolor);
 }
 
 .main-slogan {
@@ -72,17 +76,17 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-white);
 }
 
 .order-button {
   font-family: "Roboto", sans-serif;
-  background: #4d5ae5;
+  background: var(--logo-buttonscolor);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--main-white);
   cursor: pointer;
 }
 .order-button:hover,
@@ -95,7 +99,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 
 .list .advantages-text {
@@ -111,11 +115,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 
 .about-team {
-  background-color: #f4f4fd;
+  background-color: var(--main-backgroundcolor);
 }
 
 .team-title {
@@ -125,11 +129,11 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 
 .team-members {
-  background-color: #ffffff;
+  background-color: var(--main-white);
 }
 
 .list .members-name {
@@ -138,7 +142,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 
 .list .members-position {
@@ -149,32 +153,32 @@ body {
 }
 
 .footer-area {
-  background-color: var(--main-background-color);
+  background-color: var(--main-brandcolor);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--main-backgroundcolor);
 }
 
 .list .button-item {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-  background-color: #f4f4fd;
+  background-color: var(--main-backgroundcolor);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--logo-buttonscolor);
 }
 
 .list .button-item:hover,
 .list .button-item:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--hover-color);
+  color: var(--main-white);
 }
 
 .list .gallery-title {
@@ -182,11 +186,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-brandcolor);
 }
 .list .gallery-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-textcolor);
 }
